@@ -1,0 +1,12 @@
+﻿  GUIMain.cpp
+GUIMain.obj : error LNK2019: __imp_closesocket 외부 기호(참조 위치: "unsigned long __cdecl ReadServer(void *)" (?ReadServer@@YAKPEAX@Z) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_connect 외부 기호(참조 위치: "unsigned __int64 __cdecl ConnectServer(void)" (?ConnectServer@@YA_KXZ) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_htons 외부 기호(참조 위치: "unsigned __int64 __cdecl ConnectServer(void)" (?ConnectServer@@YA_KXZ) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_inet_addr 외부 기호(참조 위치: "unsigned __int64 __cdecl ConnectServer(void)" (?ConnectServer@@YA_KXZ) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_recv 외부 기호(참조 위치: "int __cdecl recvn(unsigned __int64,char *,int,int)" (?recvn@@YAH_KPEADHH@Z) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_send 외부 기호(참조 위치: "__int64 __cdecl DlgProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?DlgProc@@YA_JPEAUHWND__@@I_K_J@Z) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_socket 외부 기호(참조 위치: "unsigned __int64 __cdecl ConnectServer(void)" (?ConnectServer@@YA_KXZ) 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_WSAStartup 외부 기호(참조 위치: WinMain 함수)에서 확인하지 못했습니다.
+GUIMain.obj : error LNK2019: __imp_WSACleanup 외부 기호(참조 위치: WinMain 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+E:\3학년1학기\네트워크프로그래밍\System&Network\Network\example-교수님\GUIServerClient - 5\Client19\x64\Debug\Client19.exe : fatal error LNK1120: 10개의 확인할 수 없는 외부 참조입니다.

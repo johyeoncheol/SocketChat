@@ -1,0 +1,20 @@
+﻿  Server.cpp
+e:\3학년1학기\네트워크프로그래밍\system&network\network\example-교수님\guiserverclient - 5\server19\server19\server.cpp(141): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'SOCKET'입니다.
+  e:\3학년1학기\네트워크프로그래밍\system&network\network\example-교수님\guiserverclient - 5\server19\server19\server.cpp(141): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  e:\3학년1학기\네트워크프로그래밍\system&network\network\example-교수님\guiserverclient - 5\server19\server19\server.cpp(141): note: 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+  e:\3학년1학기\네트워크프로그래밍\system&network\network\example-교수님\guiserverclient - 5\server19\server19\server.cpp(141): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+Server.obj : error LNK2019: __imp_accept 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_bind 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_closesocket 외부 기호(참조 위치: "unsigned long __cdecl RWClient(void *)" (?RWClient@@YAKPEAX@Z) 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_htonl 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_htons 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_inet_ntoa 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_listen 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_ntohs 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_recv 외부 기호(참조 위치: "int __cdecl recvn(unsigned __int64,char *,int,int)" (?recvn@@YAH_KPEADHH@Z) 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_send 외부 기호(참조 위치: "unsigned long __cdecl RWClient(void *)" (?RWClient@@YAKPEAX@Z) 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_socket 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_WSAStartup 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_WSACleanup 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Server.obj : error LNK2019: __imp_WSAGetLastError 외부 기호(참조 위치: "void __cdecl err_display(char const *)" (?err_display@@YAXPEBD@Z) 함수)에서 확인하지 못했습니다.
+E:\3학년1학기\네트워크프로그래밍\System&Network\Network\example-교수님\GUIServerClient - 5\Server19\x64\Debug\Server19.exe : fatal error LNK1120: 14개의 확인할 수 없는 외부 참조입니다.
