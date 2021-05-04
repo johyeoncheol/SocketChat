@@ -1,0 +1,21 @@
+비동기 Thread
+
+Data Format -> 데이터 형식(구조)
+
+Packet 설계
+
+Data Protocol
+
+패킷 - > EH IH TH DH Data ET
+EH , IH, TH, ET 는 OS에서 만들어 준다..
+DH + Data => Data
+DH -> 12Byte
+Data -> 500Byte
+
+DH 중에서 길이 형식 여분을 만들어준다.
+
+프로젝트 - > 기능 추가 / 개선의 반복!!!
+
+resource
+
+crtl + d 는 어디에 포커스를 줄것인지 볼 수 있다.
